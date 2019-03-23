@@ -7,7 +7,7 @@ from collections import defaultdict
 class Graph(object):
 
 
-    def __init__(self,graph = dict()):
+    def __init__(self,graph = defaultdict(list)):
 
         self.graph = graph
         self.visited = defaultdict(list)
